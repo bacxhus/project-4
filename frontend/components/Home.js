@@ -11,7 +11,7 @@ const Home = () => {
       <section className="home-content">
         <img src={logo} alt="logo" />
 
-        <img clasName="homeimage" src={image} alt="logo" />
+        <img src={image} alt="logo" />
         <h2> Welcome to Kindlr, signup or login to continue you literary libation into love.</h2>
         <div className="home-buttons">
           <Link to={'/login'}>

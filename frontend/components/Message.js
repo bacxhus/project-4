@@ -4,6 +4,7 @@ import { getUserId } from '../lib/auth'
 import backarrow from '../images/back-arrow.svg'
 import send from '../images/send.svg'
 import Menu from '../components/Menu'
+import { Link } from 'react-router-dom'
 
 function Message(props) {
   const token = localStorage.getItem('token')
@@ -43,9 +44,9 @@ function Message(props) {
     }, 500)
     return () => clearInterval(interval)
 
-    
 
-    
+
+
   }, [])
 
 
@@ -125,7 +126,9 @@ function Message(props) {
         <div className="overflow-fade">
         </div>
         <div className="page-cover">
-          <img src={backarrow} alt={'back-arrow'} />
+          <Link to={'/message-home'}>
+            <img src={backarrow} alt={'back-arrow'} />
+          </Link>
           <img className="profile-image" src={toUser.image} alt={'user-profile-image'} />
           <div className="message-cover">
             <h1>{toUser.first_name}, {toUser.age}</h1>

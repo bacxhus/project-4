@@ -49,7 +49,9 @@ function MessageHome() {
     <section className="page-container">
       <section className="page-content">
         <div className="page-cover">
-          <img src={backarrow} alt={'back-arrow'} />
+          <Link to={'/swipe'}>
+            <img src={backarrow} alt={'back-arrow'} />
+          </Link>
           <div className="message-cover">
             <h1>Messages</h1>
             <h3>Get chatting good looking</h3>
