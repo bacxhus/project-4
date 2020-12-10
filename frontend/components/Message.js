@@ -164,7 +164,7 @@ function Message(props) {
         </form>
       </section>
     </section>
-    < Menu />
+    <Menu />
   </section>
 }
 

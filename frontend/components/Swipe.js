@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import TinderCard from 'react-tinder-card'
 import axios from 'axios'
-import logo from '../images/logo.svg'
 import distance from '../images/distance-marker.svg'
 import decline from '../images/error-circle.svg'
 import accept from '../images/heart-circle.svg'

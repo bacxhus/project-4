@@ -20,7 +20,7 @@ const Home = () => {
             </button>
           </Link>
           <Link to={'/register'}>
-            <button className="edit-profile-button"> Reigster
+            <button className="edit-profile-button"> Register
             </button>
           </Link>
         </div>

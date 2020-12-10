@@ -815,6 +815,16 @@ img.homeimage {
 
 }
 
+#anchorStyle {
+  position: absolute;
+  margin-top: 450px;
+}
+
+#modelh3 {
+  text-align: left;
+}
+
+
 .home-content {
   display: flex;
   flex-direction: column;
@@ -831,14 +841,7 @@ img.homeimage {
     text-align: center;
   }
 
-  #anchorStyle {
-    position: absolute;
-    margin-top: 450px;
-  }
 
-  #modelh3 {
-    text-align: left;
-  }
 
   .dm-myprofile-scroll {
     max-height: 390px;
